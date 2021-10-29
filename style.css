@@ -1,0 +1,96 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    
+    }
+
+    body {
+        font-family: 'Azeret Mono', monospace;
+    }
+    
+    h1 {
+        font-size: 5vh;
+        font-weight: 900;
+    }
+    h3{
+        font-size: 2.5vh;
+    }
+    button{
+        cursor: pointer;
+        margin: 2vh;
+    }
+    ::selection {
+        color: white;
+        background: black;
+      }
+/* menu styling */
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+p{
+    font-size: 1.7vh;
+}
+/* .nav-menu-wrapper {
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+} */
+
+/* hreo styling */
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-color: #FEFAE0;
+}
+.hero-content h1 {
+    color: #023E8A;
+    font-weight: 900;
+}
+.hero-content h1, h3 {
+    max-width: 800px;
+    text-align: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hero-btn-holder{
+    display: inline-flex;
+}
+
+.hero-btn-holder .hero-btn-1 {
+    border-radius: 1rem;
+    padding: 2.5vh;
+    color: white;
+    background-color: #023E8A;
+}
+.hero-btn-holder .hero-btn-2 {
+    padding: .7rem;
+    color: #023E8A;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.hero-btn-holder button {
+    font-size: 2vh;
+    font-weight: 700;
+    border: 0;
+}

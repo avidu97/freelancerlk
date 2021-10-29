@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   </head>
   <body>
-    <header>
+    <!-- navabar goes here -->
+    <header> 
       <nav>
         <ul>
           <li>HOME</li>
@@ -26,7 +27,8 @@
       </nav>
     </header>
     <main>
-      <section class="contact-header-section">
+      <!-- contact hero section -->
+      <section class="contact-header-section"> 
         <div class="contact-header-wrapper">
           <div class="contact-header-top">
             <h1>ASK</h1>
@@ -39,7 +41,8 @@
           </div>
         </div>
       </section>
-      <section class="contact-topic-section">
+      <!-- contact options -->
+      <section class="contact-topic-section"> 
         <div class="contact-topic-wrapper">
           <div class="contact-topic-card">
             <h2>CUSTOM PLAN</h2>
@@ -51,9 +54,42 @@
           </div>
         </div>
       </section>
-      <section class="contact-forum-section">
+      <!-- contact form goes here -->
+      <section class="contact-forum-section"> 
         <div class="contact-wrapper">
-          <div class="contact-forum"></div>
+          <div class="contact-forum">
+            <form action="" method="get">
+              <div class="contact-form-reason">
+                  <label for="reason">Reason</label>
+                <select name="reason" id="reason">
+                  <option value="custom-plan">Custom Plan</option>
+                  <option value="join">Join</option>
+                  <option value="general">General</option>
+                </select>
+              </div>
+              <div class="contact-form-name">
+                <label for="name">Name</label>
+                <div class="contact-form-name-input">
+                  <input type="text" id="name" name="name" required>
+                </div>
+              </div>
+              <div class="contact-form-email">
+                <label for="email">E-mail</label>
+                <div class="contact-form-email-input">
+                  <input type="email" name="email" id="" required>
+                </div>
+              </div>
+              <div class="contact-form-email">
+                <label for="message">Message</label>
+                <div class="contact-form-message-inpupt">
+                  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+              <div class="contact-form-btn">
+                <button type="submit">SEND</button>
+              </div>
+            </form>
+          </div>
           <div class="contact-quote"><p><span class="contact-quote-symbol">"</span></p>Today is the day. There will be no tomorrow, unless you start today.</div>
         </div>
       </section>
