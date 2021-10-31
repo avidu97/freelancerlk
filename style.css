@@ -158,6 +158,8 @@ p{
     font-size: 2.2vh;
 }
 
+/* FEATURES STYLING */
+
 .features-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -165,13 +167,9 @@ p{
     gap: 3vh;
     max-width: 90vw;
     justify-content: stretch;
-    border: solid 1px;
     padding: 3vh;
 }
-.features-image {
-    width: 30%;
-    height: 30%;
-}
+
 .features-card {
     padding: 2vh;
     display: flex;
@@ -188,16 +186,28 @@ p{
     padding: 3vh;
 }
 
+
+
+.features-title {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
 .features-image {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
     padding: 2vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
 }
 
-
-
-
-
+.features-image img {
+    width: 10vh;
+}
+.features-card h2 {
+    color: #023E8A;
+}
 
 
 
