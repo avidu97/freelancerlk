@@ -22,9 +22,14 @@
         font-size: 5vh;
         font-weight: 900;
     }
+    h2 {
+        font-size: 4vh;
+        font-weight: 800;
+    }
     h3{
         font-size: 2.5vh;
     }
+    
     button{
         cursor: pointer;
         margin: 2vh;
@@ -127,19 +132,67 @@ p{
 
 .why-vps-section {
     background-color: FEFAE0;
+    padding: 5vh;
 }
 .why-vps-card {
+    padding: 1vh;
     background-color: #CAF0F8;
+    border-radius: 2vh;
+}
+.why-vps-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 80vh;
+    gap: 5vh;
+}
+.why-vps-section {
+    display: grid;
+    justify-content: center;
+}
+.why-vps-card h2 {
+    margin-top: -3vh;
+    color: #023E8A;
+}
+.why-vps-card p {
+    font-size: 2.2vh;
 }
 
+.features-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3vh;
+    max-width: 90vw;
+    justify-content: stretch;
+    border: solid 1px;
+    padding: 3vh;
+}
+.features-image {
+    width: 30%;
+    height: 30%;
+}
+.features-card {
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2vh;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(#FEFAE0, #CAF0F8);
+    
+}
+.features-section {
+    display: grid;
+    justify-content: center;
+    padding: 3vh;
+}
 
-
-
-
-
-
-
-
+.features-image {
+    padding: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
 
 
 
