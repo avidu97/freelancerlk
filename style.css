@@ -209,6 +209,77 @@ p{
     color: #023E8A;
 }
 
+/* PRICING STYLING */
+
+.pricing-section {
+    display: grid;
+    justify-content: center;
+    background-color: #FFD5D5;
+}
+
+.pricing-wrapper {
+    max-width: 800px;
+    display: grid;
+    gap: 2vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #023E8A;
+    margin: 5vh;
+}
+
+.package-details {
+    background-color: #FFFFFF;
+    padding: 3vh;
+    border-radius: 2vh;
+    margin: 2vh;
+}
+
+.package-name {
+    background: linear-gradient(#CAF0F8, #FEFAE0);
+    padding: 3vh;
+    border-radius: 2vh;
+    margin: 2vh;
+}
+
+
+.package-price {
+    background-color: #DEF4FF;
+    padding: 3vh;
+    border-radius: 2vh;
+    margin: 2vh;
+    text-align: center;
+}
+
+.pricing-card a {
+    text-decoration: none;
+    color: #023E8A;
+}
+
+.package-name h3 {
+    font-size: 3.5vh;
+}
+.package-details ul li {
+    font-size: 2.6vh;
+    font-weight: 700;
+    line-height: 5vh;
+}
+
+.package-button {
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+
+/* ADDITIONAL SERVICES STYLING */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
