@@ -10,8 +10,7 @@
     overflow-x: hidden;
     position: relative;
     display: block;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
     }
 
     body {
@@ -102,6 +101,12 @@ p{
 
 /* Providers section styling */
 
+.providers_title {
+    font-size: 4.5vh;
+    color: #023E8A;
+    transform: rotate(-90deg);
+}
+
 .providers-section {
     background-color: #CAF0F8;
 }
@@ -129,6 +134,12 @@ p{
 
 
 /* Why VPS Section Styling */
+
+.why_title {
+    padding-bottom: 5vh;
+    font-size: 4.5vh;
+    color: #023E8A;
+}
 
 .why-vps-section {
     background-color: FEFAE0;
@@ -211,6 +222,13 @@ p{
 
 /* PRICING STYLING */
 
+.pricing_title {
+    font-size: 4.5vh;
+    color: #023E8A;
+}
+
+
+
 .pricing-section {
     display: grid;
     justify-content: center;
@@ -218,7 +236,7 @@ p{
 }
 
 .pricing-wrapper {
-    max-width: 800px;
+    max-width: 1200px;
     display: grid;
     gap: 2vh;
     grid-template-columns: 1fr 1fr 1fr;
@@ -270,6 +288,114 @@ p{
 
 /* ADDITIONAL SERVICES STYLING */
 
+.additional-services {
+    display: grid;
+    justify-content: center;
+    background-color: #DEF4FF;
+}
+.additional-services-wrapper {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.additional-services-card {
+    background-color: #FEFAE0;
+    padding: 3vh;
+    margin: 3vh;
+    border-radius: 3vh;
+    color: #023E8A;
+}
+
+.additional-services-card h3 {
+    text-align: left;
+    color: #023E8A;
+    font-size: 3vh;
+    font-weight: 800;
+}
+
+.additional-services-card p {
+    font-size: 2.2vh;
+}
+
+/* FAQ SECTION STYLING */
+
+
+.faq_section {
+    display: grid;
+    justify-content: center
+}
+
+.accordion {
+    padding: 3vh;
+    width:100%;
+    max-width:800px;
+  }
+  .accordion h2 {
+    margin:2vh;
+    font-size: 2.7vh;
+    color:#023E8A;
+  }
+  .accordion .item {
+    margin:2vh;
+    border-radius: 3vh;
+    overflow:hidden;
+    background-color: #DEF4FF;
+  }
+  
+  .accordion .item .question {
+    position:relative;
+    padding: 3vh;
+    padding-left: 40px;
+    font-size: 2.7vh;
+    font-weight: 800;
+    color:#023E8A;
+    cursor:pointer;
+  }
+  .accordion .item .question:before {
+    content:"+";
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform:translate(-50%,-50%) rotate(0deg);
+    width: 30px;
+    height: 30px;
+    font-size: 2.2vh;
+    line-height: 30px;
+    font-weight: 600;
+    color: #023E8A;
+    text-align: center;
+    transition: all .5s ease-in-out;
+  }
+  .accordion .item .answer {
+    max-height:0px;
+    overflow:hidden;
+    font-size: 2.2vh;
+    background-color: #DEF4FF;
+    color:#023E8A;
+    transition:max-height .5s ease-in-out;
+  }
+  .accordion .item .answer > * {
+    margin: 2vh;
+  }
+  .accordion .item.active .question:before {
+    transform:translate(-50%,-50%) rotate(145deg);
+  }
+  .accordion .item.active .answer {
+    max-height:500px;
+  }
+  .accordion .item.active .answer p {
+      font-size: 2.2vh;
+  }
+
+
+/* FOOOOOTER STYLIIING */
+
+footer {
+    background-color: #DEF4FF;
+    padding: 2vh;
+    text-align: center;
+}
 
 
 
@@ -284,3 +410,20 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
