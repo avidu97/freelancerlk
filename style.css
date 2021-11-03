@@ -398,32 +398,137 @@ footer {
 }
 
 
+/* ---------SMALL HOSTING PACKAGE STYLING ----------*/
+.package-header-wrapper {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    max-width: 800px;
+    padding: 5vh;
+}
+
+.package-header {
+    color: #023E8A;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #DEF4FF;
+}
+
+.package-header-image{
+    justify-self: center;
+    max-width: 20%;
+}
+
+/* usage styling */
+.package-usage{
+    padding: 5vh;
+    display: grid;
+    justify-content: center;
+}
+.usage-wrapper {
+    border-radius: ;
+    border-radius: 3vh;
+    background-color: #023E8A;
+    max-width: 800px;
+    min-width: 800px;
+    
+}
+.usage-tags {
+    border-radius: 3vh;
+    padding: 5vh;
+    position: relative;
+    background-color: #023E8A;
+}
+.usage-tag {
+    color: #023E8A;
+    border-radius: 3vh;
+    padding: 1vh;
+    margin: 1vh;
+    float: left;
+    /* position: absolute; */
+    background-color: #FEFAE0;
+}
+
+.usage-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.usage-title{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 3vh;
+    background-color: #FEFAE0;
+    color: #023E8A;
+    font-size: 4vh;
+    font-weight: 900;
+
+}
+
+.usage-title {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
 
 
+ /* PACKAGE FEATURES STYLING */
 
 
+.package-features {
+    padding: 5vh;
+    display: grid;
+    justify-content: center;
+    background-color: #DEF4FF;
+}
 
+.package-features-wrapper {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 
+.package-feature {
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 900;
+    background-color: #FEFAE0;
+    color: #023E8A;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin: 1vh;
+    border-radius: 1vh;
+}
 
+.package-features-singles {
+    padding: 5vh;
+    display: grid;
+    justify-content: center;
+    background-color: #DEF4FF;
+}
+.package-features-single-wrapper {
+    max-width: 800px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.package-features-single p {
+    font-size: 2.2vh;
+}
  
+.package-feature-single-blod {
+    color: #023E8A;
+    font-size: 2.5vh;
+    font-weight: 800;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.package-features-single-defenitions {
+    font-size: 1.5vh;
+    padding-top: 2vh;
+}
