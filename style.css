@@ -582,8 +582,97 @@ footer {
 }
 
 
+/* contact topic styling */
+
+.contact-topic-section{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact-topic-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    max-width: 800px;
+    
+    margin: 3vh;
+    
+}
+
+.contact-topic-card {
+    padding: 3vh;
+    background-color: contact-topic-card;
+    color: #DEF4FF;
+    background-color: #023E8A;
+    margin: 1vh;
+    border-radius: 3vh;
+}
+
+.contact-topic-card h2 {
+    font-size: 4vh;
+}
+.contact-topic-card p {
+    font-size: 2.3vh;
+}
 
 
+/* CONTACT METHODS */
+
+
+
+.contact-methods {
+    display: grid;
+    justify-content: center;
+}
+
+.contact-methods-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    align-content: space-between;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 3vh;
+}
+
+.contact-method{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    
+    margin: 1vh;
+    background-color: #DEF4FF;
+    border-radius: 3vh;
+}
+
+.contact-icon {
+    width: 100%;
+    height: 100%;
+    background-color: #023E8A;
+    border-radius: 3vh;
+}
+
+.contact-icon img {
+    justify-self: center;
+    align-self: center;
+    padding: 3vh;
+}
+
+.contact-info {
+    justify-self: center;
+    align-self: center;
+    padding: 1vh;
+}
+
+.contact-method a, address {
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: #023E8A;
+    font-weight: 700;
+}
 
 
 
