@@ -674,5 +674,52 @@ footer {
     font-weight: 700;
 }
 
+/* CONTACT FORM STYLING */
+
+.contact-forum-section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    background-color: #DEF4FF;
+    padding: 3vh;
+}
+
+.contact-quote{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 3vh;
+    padding: 2vh;
+    background-color: #023E8A;
+    color: #DEF4FF;
+    border-radius: 3vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.contact-quote-symbol {
+    font-size: 15vh;
+    text-align: left;
+}
+
+.contact-form-name input {
+    border-bottom: solid 5px #023E8A;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+
+
 
 
